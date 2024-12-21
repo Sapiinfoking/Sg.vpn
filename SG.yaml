@@ -1,0 +1,27 @@
+proxies:
+  - name: 🇸🇬 SINGAPORE XL GS CDN 🔁
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: d67c414e-3e63-40d7-bae4-fda7e97f34bb
+    skip-cert-verify: true
+    sni: trojan-sg01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: trojan-sg01.globalssh.xyz
+    udp: true
+  - name: 🇸🇬 SINGAPORE XL GS SNI🔁
+    server: 81.168.116.23
+    port: 443
+    type: trojan
+    password: d67c414e-3e63-40d7-bae4-fda7e97f34bb
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: trojan-sg01.globalssh.xyz
+    udp: true
