@@ -25,3 +25,18 @@ proxies:
       headers:
         Host: trojan-sg01.globalssh.xyz
     udp: true
+  - name: ASIA Vless-WS(2024-12-29)
+    server: asia1.fufo.org
+    port: 443
+    type: vless
+    uuid: 84ee91a0-c056-11ef-b437-205c6d5f5d78
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: teams.microsoft.com
+    ws-opts:
+      path: /vlws
+      headers:
+        Host: asia1.fufo.org
