@@ -27,7 +27,7 @@ proxies:
     udp: true
   - name: 🇮🇩 Cloud Teknologi Nusantara WS TLS [nautica]
     server: 104.17.3.81
-    port: 2096
+    port: 443
     type: trojan
     password: 71098606-36ab-4bdc-9600-49c14776e2ab
     udp: true
