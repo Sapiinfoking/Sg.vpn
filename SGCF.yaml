@@ -1,0 +1,40 @@
+proxies:
+  - name: 1 🇸🇬 TERAEXCH WS TLS [nautica]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 42b05dd2-48a7-4d29-a91e-8a8023a103ef
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: nautica.foolvpn.me
+    ws-opts:
+      path: /154.91.84.10-8443
+      headers:
+        Host: nautica.foolvpn.me
+  - name: 2 🇸🇬 Amazon.com WS TLS [nautica]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 42b05dd2-48a7-4d29-a91e-8a8023a103ef
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: nautica.foolvpn.me
+    ws-opts:
+      path: /45.87.103.154-57012
+      headers:
+        Host: nautica.foolvpn.me
+  - name: 6 🇸🇬 Akamai Connected Cloud WS TLS [nautica]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 42b05dd2-48a7-4d29-a91e-8a8023a103ef
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: nautica.foolvpn.me
+    ws-opts:
+      path: /103.3.63.253-46683
+      headers:
+        Host: nautica.foolvpn.me
