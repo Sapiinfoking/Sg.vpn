@@ -1,4 +1,16 @@
 proxies:
+  - name: INDONESIA XL GS GRPC 🔁
+    server: 103.167.34.97
+    port: 443
+    type: trojan
+    password: 131250bf-e43e-4050-b93d-a6964c4a1755
+    tls: true
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
   - name: 🇸🇬 INDONESIA XL GS SNI 🔁
     server: 103.167.34.97
     port: 443
@@ -11,18 +23,6 @@ proxies:
       path: /trojan-ws
       headers:
         Host: trojan-ikd-id01.globalssh.xyz
-    udp: true
-  - name: INDONESIA XL GS GRPC 🔁
-    server: 103.167.34.97
-    port: 443
-    type: trojan
-    password: 131250bf-e43e-4050-b93d-a6964c4a1755
-    tls: true
-    skip-cert-verify: true
-    sni: teams.microsoft.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
     udp: true
   - name: SINGAPORE XL GRPC 🔁
     server: 81.168.116.23
