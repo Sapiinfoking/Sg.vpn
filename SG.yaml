@@ -1,27 +1,31 @@
 proxies:
+  - name: 🇸🇬 SINGAPORE XL GS SNI 🔁
+    server: vless-sg01.gproxy.gratis
+    port: 443
+    type: vless
+    uuid: 508aab4a-0f14-4b97-997d-809eeea977e9
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: teams.microsoft.com
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-sg01.gproxy.gratis
   - name: 🇸🇬 SINGAPORE XL GS CDN 🔁
     server: 104.17.3.81
     port: 443
-    type: trojan
-    password: d67c414e-3e63-40d7-bae4-fda7e97f34bb
-    skip-cert-verify: true
-    sni: tro-sg01.gproxy.gratis
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: tro-sg01.gproxy.gratis
+    type: vless
+    uuid: 508aab4a-0f14-4b97-997d-809eeea977e9
+    cipher: auto
+    tls: true
     udp: true
-  - name: 🇸🇬 SINGAPORE XL GS SNI🔁
-    server: tro-sg01.gproxy.gratis
-    port: 443
-    type: trojan
-    password: d67c414e-3e63-40d7-bae4-fda7e97f34bb
     skip-cert-verify: true
-    sni: teams.microsoft.com
     network: ws
+    servername: vless-sg01.gproxy.gratis
     ws-opts:
-      path: /trojan-ws
+      path: /vless-ws
       headers:
-        Host: tro-sg01.gproxy.gratis
-    udp: true
+        Host: vless-sg01.gproxy.gratis
