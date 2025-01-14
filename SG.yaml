@@ -29,3 +29,19 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg01.gproxy.gratis
+  - name: NicesgTJq-globalssh_vmess_ws_tls
+    server: vmess-sg01.gproxy.gratis
+    port: 443
+    type: vmess
+    uuid: add13f57-dd50-4c9e-8fac-e2d4f89ebd2a
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: teams.microsoft.com
+    alterId: 0
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-sg01.gproxy.gratis
