@@ -29,3 +29,18 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg01.gproxy.gratis
+  - name: FastSsh.com 🔁
+    server: asia1.fufo.org
+    port: 443
+    type: vless
+    uuid: 351c6590-d59e-11ef-b439-205c6d5f5d78
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: teams.microsoft.com
+    network: ws
+    ws-opts:
+      path: /vlws
+      headers:
+        Host: teams.microsoft.com
+    udp: true
