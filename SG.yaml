@@ -3,7 +3,7 @@ proxies:
     server: vless-sg01.gproxy.gratis
     port: 443
     type: vless
-    uuid: a28b954f-1014-4e8a-a2dd-e6c62d200776
+    uuid: 82d44711-25d3-4a55-9459-bef4c7ad2c19
     cipher: auto
     tls: true
     udp: true
@@ -18,7 +18,7 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: vless
-    uuid: a28b954f-1014-4e8a-a2dd-e6c62d200776
+    uuid: 82d44711-25d3-4a55-9459-bef4c7ad2c19
     cipher: auto
     tls: true
     udp: true
