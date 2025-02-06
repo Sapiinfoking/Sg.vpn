@@ -29,4 +29,19 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg01.gproxy.gratis
+  - name: 🇸🇬 Singapore BACKUP
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: cc088b60-e48a-11ef-b731-205c6d5f5d78
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    alterId: 0
+    ws-opts:
+      path: /e64wzc29
+      headers:
+        Host: sg-1.hihu.net
         
