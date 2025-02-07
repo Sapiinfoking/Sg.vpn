@@ -1,38 +1,16 @@
 proxies:
-  - name: INDONESIA XL GS GRPC 🔁
-    server: tro-id01.gproxy.gratis
-    port: 443
-    type: trojan
-    password: 131250bf-e43e-4050-b93d-a6964c4a1755
+  - name: 🇸🇬 INDONESIA XL SNI 🔁
+    server: indo7.vpnjantit.com
+    port: 10002
+    type: vless
+    uuid: 0d7f1de2-e55b-11ef-a1b8-b79df2d53f0c
+    cipher: auto
     tls: true
-    skip-cert-verify: true
-    sni: teams.microsoft.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
     udp: true
-  - name: 🇸🇬 INDONESIA XL GS SNI 🔁
-    server: tro-id01.gproxy.gratis
-    port: 443
-    type: trojan
-    password: 131250bf-e43e-4050-b93d-a6964c4a1755
     skip-cert-verify: true
-    sni: teams.microsoft.com
     network: ws
+    servername: teams.microsoft.com
     ws-opts:
-      path: /trojan-ws
+      path: /vpnjantit
       headers:
-        Host: tro-id01.gproxy.gratis
-    udp: true
-  - name: SINGAPORE XL GRPC 🔁
-    server: 81.168.116.23
-    port: 443
-    type: trojan
-    password: d67c414e-3e63-40d7-bae4-fda7e97f34bb
-    tls: true
-    skip-cert-verify: true
-    sni: teams.microsoft.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-grpc
-    udp: true
+        Host: teams.microsoft.com
