@@ -1,16 +1,1 @@
-proxies:
-  - name: 🇸🇬 INDONESIA XL SNI 🔁
-    server: indo7.vpnjantit.com
-    port: 10002
-    type: vless
-    uuid: 0d7f1de2-e55b-11ef-a1b8-b79df2d53f0c
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: teams.microsoft.com
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: teams.microsoft.com
+
