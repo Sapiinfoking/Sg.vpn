@@ -29,17 +29,16 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg01.gproxy.gratis
-  - name: ASIA Vless-WS NTLS(2025-02-15)
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: fbb36790-e5be-11ef-b536-205c6d5f5d78
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vlws
-      headers:
-        Host: asia1.fufo.org
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      name: "🇸🇬 SINGAPORE XL GS XHTTP CDN 🔁"
+      network: xhttp
+      port: "443"
+      server: 104.17.3.81
+      servername: vless-sg01.gproxy.gratis
+      tls: true
+      type: vless
+      udp: true
+      uuid: e17d3eae-23f5-4416-82be-a696f5b6b2de
+      xudp: true
