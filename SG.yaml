@@ -29,16 +29,15 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg01.gproxy.gratis
-    - alpn:
+  - name: "🇸🇬 SINGAPORE XL GS XHTTP CDN 🔁"
+    network: xhttp
+    port: "443"
+    server: 104.17.3.81
+    servername: vless-sg01.gproxy.gratis
+    tls: true
+    type: vless      
+    udp: true
+    uuid: e17d3eae-23f5-4416-82be-a696f5b6b2de
+    xudp: true
+    alpn:
         - h2
-      client-fingerprint: chrome
-      name: "🇸🇬 SINGAPORE XL GS XHTTP CDN 🔁"
-      network: xhttp
-      port: "443"
-      server: 104.17.3.81
-      servername: vless-sg01.gproxy.gratis
-      tls: true
-      type: vless
-      udp: true
-      uuid: e17d3eae-23f5-4416-82be-a696f5b6b2de
-      xudp: true
