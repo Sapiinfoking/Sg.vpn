@@ -1,1 +1,31 @@
-
+proxies:
+  - name: INDONESIA XL UMS SNI 🔁
+    server: vless-id11.gproxy.pro
+    port: 443
+    type: vless
+    uuid: 881296a2-cfb9-4755-b89a-e8182bd1296a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: teams.microsoft.com
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-id11.gproxy.pro
+    udp: true
+  - name: INDONESIA XL UMS CDN 🔁
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 881296a2-cfb9-4755-b89a-e8182bd1296a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vless-id11.gproxy.pro
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-id11.gproxy.pro
+    udp: true
