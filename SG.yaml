@@ -29,22 +29,18 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg01.gproxy.gratis
-  - alpn:
-        - ""
-    alterId: "0"
-    cipher: auto
-    name: djdjdjjdfd-vpnjantit.com
+  - name: Nahinibaru-trial_vless_ws_tls
     network: ws
-    port: "10001"
-    server: sg10.vpnjantit.com
+    port: "443"
+    server: vless-sg04.gproxy.pro
     servername: teams.microsoft.com
-    skip-cert-verify: false
     tls: true
-    type: vmess
+    type: vless
     udp: true
-    uuid: ba22da4a-fdb4-11ef-89a0-3b4f3cfb0aff
+    uuid: 7c434d9b-2fcc-4ad1-a9f1-da47327b8d30
     ws-opts:
-      headers: {}
-      path: /vpnjantit
+      path: /vless-ws
+      headers:
+        Host: vless-sg04.gproxy.pro
     xudp: true
     
