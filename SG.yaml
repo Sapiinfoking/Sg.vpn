@@ -30,17 +30,18 @@ proxies:
       headers:
         Host: vless-sg01.gproxy.gratis
   - name: Nahinibaru-trial_vless_ws_tls
-    network: ws
-    port: "443"
     server: vless-sg04.gproxy.pro
-    servername: teams.microsoft.com
-    tls: true
+    port: 443
     type: vless
-    udp: true
     uuid: 7c434d9b-2fcc-4ad1-a9f1-da47327b8d30
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: teams.microsoft.com
+    network: ws
     ws-opts:
       path: /vless-ws
       headers:
         Host: vless-sg04.gproxy.pro
-    xudp: true
+    udp: true
     
