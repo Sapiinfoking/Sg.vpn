@@ -13,7 +13,7 @@ proxies:
     ws-opts:
       path: /vless-ws
       headers:
-        Host: vless-sg01.gproxy.gratis
+        Host: vless-sg01.gproxy.pro
   - name: 🇸🇬 SINGAPORE XL GS CDN 🔁
     server: 104.17.3.81
     port: 443
@@ -28,20 +28,5 @@ proxies:
     ws-opts:
       path: /vless-ws
       headers:
-        Host: vless-sg01.gproxy.gratis
-  - name: Nahinibaru-trial_vless_ws_tls
-    server: vless-sg04.gproxy.pro
-    port: 443
-    type: vless
-    uuid: 7c434d9b-2fcc-4ad1-a9f1-da47327b8d30
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: teams.microsoft.com
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
         Host: vless-sg04.gproxy.pro
-    udp: true
-    
+        
