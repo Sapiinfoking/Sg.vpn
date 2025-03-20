@@ -29,4 +29,18 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg04.gproxy.pro
-        
+  - name: SINGAPORE XL MBC SNI 🔁
+    server: vless-sg03.gproxy.pro
+    port: 443
+    type: vless
+    uuid: b8e17aad-9b55-485b-bf1b-bf19d569f53d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: teams.microsoft.com
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-sg03.gproxy.pro
+    udp: true
