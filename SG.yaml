@@ -29,11 +29,11 @@ proxies:
       path: /vless-ws
       headers:
         Host: vless-sg04.gproxy.pro
-  - name: SINGAPORE XL MBC SNI 🔁
-    server: vless-sg03.gproxy.pro
+  - name: SINGAPORE XL BU SNI 🔁
+    server: vless-sg02.gproxy.pro
     port: 443
     type: vless
-    uuid: b8e17aad-9b55-485b-bf1b-bf19d569f53d
+    uuid: 3733241e-6e41-4ba9-a326-f9d7524c2d40
     cipher: auto
     tls: true
     skip-cert-verify: true
