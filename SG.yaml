@@ -30,10 +30,10 @@ proxies:
       headers:
         Host: vless-sg04.gproxy.pro
   - name: SINGAPORE XL BU SNI 🔁
-    server: vless-sg01.gproxy.pro
+    server: vless-id04.gproxy.pro
     port: 443
     type: vless
-    uuid: 93650d4e-06b3-41ea-bced-bec0222c631b
+    uuid: 60207873-2fc5-492a-8ca1-53f0b131eb25
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -42,5 +42,5 @@ proxies:
     ws-opts:
       path: /vless-ws
       headers:
-        Host: vless-sg01.gproxy.pro
+        Host: vless-id04.gproxy.pro
     udp: true
