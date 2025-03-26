@@ -1,9 +1,9 @@
 proxies:
   - name: 🇸🇬 SINGAPORE XL GS SNI 🔁
-    server: vless-sg04.gproxy.pro
+    server: vless-sg01.gproxy.pro
     port: 443
     type: vless
-    uuid: ef094d1a-4eeb-4b41-8707-93f7ac3b629b
+    uuid: b6e8d8e1-89e9-4c18-9025-8c72cfd3211c
     cipher: auto
     tls: true
     udp: true
@@ -18,29 +18,14 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: vless
-    uuid: 93650d4e-06b3-41ea-bced-bec0222c631b
+    uuid: b6e8d8e1-89e9-4c18-9025-8c72cfd3211c
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: vless-sg04.gproxy.pro
+    servername: vless-sg01.gproxy.pro
     ws-opts:
       path: /vless-ws
       headers:
-        Host: vless-sg04.gproxy.pro
-  - name: SINGAPORE XL BU SNI 🔁
-    server: vless-id04.gproxy.pro
-    port: 443
-    type: vless
-    uuid: 60207873-2fc5-492a-8ca1-53f0b131eb25
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: teams.microsoft.com
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: vless-id04.gproxy.pro
-    udp: true
+        Host: vless-sg01.gproxy.pro
