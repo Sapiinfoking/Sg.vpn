@@ -1,9 +1,9 @@
 proxies:
   - name: 🇮🇩 INDONESIA XL GS SNI 🔁
-    server: vless-id04.gproxy.pro
+    server: vless-id13.gproxy.pro
     port: 443
     type: vless
-    uuid: 24d09f23-4d94-4b3b-b9ed-6b9c757f7333
+    uuid: 6b683bb6-e87c-4c5e-ac42-44540385abb1
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -12,20 +12,20 @@ proxies:
     ws-opts:
       path: /vless-ws
       headers:
-        Host: vless-id04.gproxy.pro
+        Host: vless-id13.gproxy.pro
     udp: true
   - name: 🇮🇩 INDONESIA XL GS CDN 🔁
     server: 104.17.3.81
     port: 443
     type: vless
-    uuid: 24d09f23-4d94-4b3b-b9ed-6b9c757f7333
+    uuid: 6b683bb6-e87c-4c5e-ac42-44540385abb1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vless-id04.gproxy.pro
+    servername: vless-id13.gproxy.pro
     network: ws
     ws-opts:
       path: /vless-ws
       headers:
-        Host: vless-id04.gproxy.pro
+        Host: vless-id13.gproxy.pro
     udp: true
