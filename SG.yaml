@@ -5,7 +5,7 @@ proxies:
     type: trojan
     password: 2d62ae24-780d-43ae-a064-8c21bc56b439
     skip-cert-verify: true
-    sni: teams.microsoft.com
+    sni: meet.google.com
     network: ws
     ws-opts:
       path: /trojan-ws
