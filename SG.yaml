@@ -25,3 +25,11 @@ proxies:
       headers:
         Host: tro-sg03.gproxy.pro
     udp: true
+  - name: SINGAPORE XL TCP SNI 🔁
+    server: sg4.6n6.net
+    port: 443
+    type: trojan
+    password: 7480d650-271c-11f0-93fe-1239d0255272
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    udp: true
