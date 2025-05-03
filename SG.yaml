@@ -26,17 +26,17 @@ proxies:
         Host: tro-sg03.gproxy.pro
     udp: true
   - name: SINGAPORE XL WS SNI 🔁
-    server: sg8.vpnjantit.com
+    server: asia1.fufo.org
     port: 443
     type: vless
-    uuid: b54e09fa-281f-11f0-9b7b-576148750210
+    uuid: 8d976120-2822-11f0-b733-205c6d5f5d78
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: teams.microsoft.com
     network: ws
     ws-opts:
-      path: /vpnjantit
+      path: /vlws
       headers:
-        Host: sg8.vpnjantit.com
+        Host: asia1.fufo.org
     udp: true
