@@ -5,7 +5,7 @@ proxies:
     type: trojan
     password: 2d62ae24-780d-43ae-a064-8c21bc56b439
     skip-cert-verify: true
-    sni: meet.google.com
+    sni: teams.microsoft.com
     network: ws
     ws-opts:
       path: /trojan-ws
@@ -26,17 +26,17 @@ proxies:
         Host: tro-sg03.gproxy.pro
     udp: true
   - name: SINGAPORE XL WS SNI 🔁
-    server: asia1.fufo.org
-    port: 443
+    server: sgvl.greenssh.org
+    port: 2087
     type: vless
-    uuid: 8d976120-2822-11f0-b733-205c6d5f5d78
+    uuid: 04704d7f-0fb7-4b94-9fc0-501284fe8587
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: teams.microsoft.com
     network: ws
     ws-opts:
-      path: /vlws
+      path: /vless
       headers:
-        Host: asia1.fufo.org
+        Host: sgvl.greenssh.org
     udp: true
