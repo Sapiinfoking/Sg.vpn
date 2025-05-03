@@ -26,10 +26,10 @@ proxies:
         Host: tro-sg03.gproxy.pro
     udp: true
   - name: SINGAPORE XL WS SNI 🔁
-    server: sg10.vpnjantit.com
-    port: 10002
+    server: sg8.vpnjantit.com
+    port: 443
     type: vless
-    uuid: 461b3af0-2728-11f0-8ce6-071b996fae68
+    uuid: b54e09fa-281f-11f0-9b7b-576148750210
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -38,5 +38,5 @@ proxies:
     ws-opts:
       path: /vpnjantit
       headers:
-        Host: sg10.vpnjantit.com
+        Host: sg8.vpnjantit.com
     udp: true
