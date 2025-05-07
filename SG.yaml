@@ -26,17 +26,17 @@ proxies:
         Host: tro-sg03.gproxy.pro
     udp: true
   - name: SINGAPORE XL WS SNI 🔁
-    server: sgvl.greenssh.org
-    port: 2087
+    server: speed.sing-box.space
+    port: 443
     type: vless
-    uuid: 04704d7f-0fb7-4b94-9fc0-501284fe8587
+    uuid: 26553cc7-f40e-4a38-8b51-9ed27527ce25
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: teams.microsoft.com
     network: ws
     ws-opts:
-      path: /vless
+      path: /advanced-create-to-cyber-security/buy-vless-ws-pm-telegram-at-synricha
       headers:
-        Host: sgvl.greenssh.org
+        Host: speed.sing-box.space
     udp: true
