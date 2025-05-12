@@ -25,21 +25,6 @@ proxies:
       headers:
         Host: tro-sg03.gproxy.pro
     udp: true
-  - name: SINGAPORE XL GS.COM 🔁
-    server: vless-jp01.gproxy.gratis
-    port: 443
-    type: vless
-    uuid: e34be052-f43d-40a9-9e1e-0063166768f2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: teams.microsoft.com
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: vless-jp01.gproxy.gratis
-    udp: true
   - name: SINGAPORE XL WS SNI 🔁
     server: speed.sing-box.space
     port: 443
