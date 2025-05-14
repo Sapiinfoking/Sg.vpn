@@ -40,7 +40,6 @@ proxies:
       headers:
         Host: xra-sgdo002.ayows.web.id
     udp: true
-
   - name: SINGAPORE XL WS SNI 🔁
     server: speed.sing-box.space
     port: 443
