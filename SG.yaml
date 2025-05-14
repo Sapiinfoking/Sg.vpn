@@ -29,7 +29,7 @@ proxies:
     server: sg.v2vless.site
     port: 443
     type: vless
-    uuid: f6249774-8ec5-58b9-8aa9-625b52cfdd23
+    uuid: I_Love_🇵🇸_sshOcean_ffe5
     cipher: auto
     tls: true
     skip-cert-verify: true
