@@ -25,6 +25,22 @@ proxies:
       headers:
         Host: tro-sg03.gproxy.pro
     udp: true
+  - name: SINGAPORE XL SSSH SNI 🔁
+    server: xra-sgdo002.ayows.web.id
+    port: 443
+    type: vless
+    uuid: 39ebc86b-893a-521e-b873-53b603d4c394
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: teams.microsoft.com
+    network: ws
+    ws-opts:
+      path: /xrayvless
+      headers:
+        Host: xra-sgdo002.ayows.web.id
+    udp: true
+
   - name: SINGAPORE XL WS SNI 🔁
     server: speed.sing-box.space
     port: 443
