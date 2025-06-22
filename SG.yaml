@@ -26,7 +26,7 @@ proxies:
         Host: tro-sg03.gproxy.pro
     udp: true
   - name: SINGAPORE XL SSSH SNI 🔁
-    server: sg-melbi002.gosni.web.id
+    server: xra-sgdo002.gosni.web.id
     port: 443
     type: vless
     uuid: 30f001b8-2ba1-5ac5-8cfc-2873b2d06f2b
@@ -38,5 +38,5 @@ proxies:
     ws-opts:
       path: /xrayvless
       headers:
-        Host: sg-melbi002.gosni.web.id
+        Host: xra-sgdo002.gosni.web.id
     udp: true
