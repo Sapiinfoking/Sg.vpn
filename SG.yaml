@@ -1,6 +1,6 @@
 proxies:
   - name: SINGAPORE XL SSSH SNI 🔁
-    server: sg-melbi001.gosni.web.id
+    server: sg-aws001.gosni.web.id
     port: 443
     type: vless
     uuid: 30f001b8-2ba1-5ac5-8cfc-2873b2d06f2b
@@ -12,5 +12,5 @@ proxies:
     ws-opts:
       path: /xrayvless
       headers:
-        Host: sg-melbi001.gosni.web.id
+        Host: sg-aws001.gosni.web.id
     udp: true
