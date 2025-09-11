@@ -1,9 +1,9 @@
 proxies:
-  - name: 🇮🇩 INDONESIA XL GS SNI 🔁
-    server: vless-id13.gproxy.pro
+  - name: 🇮🇩 INDONESIA XL SSSH SNI 🔁
+    server: id-tencent001.gosni.web.id
     port: 443
     type: vless
-    uuid: 6b683bb6-e87c-4c5e-ac42-44540385abb1
+    uuid: 04968b2f-894e-5e69-9fc0-a523437c5eGS
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -12,20 +12,6 @@ proxies:
     ws-opts:
       path: /vless-ws
       headers:
-        Host: vless-id13.gproxy.pro
+        Host: id-tencent001.gosni.web.id
     udp: true
-  - name: 🇮🇩 INDONESIA XL GS CDN 🔁
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: 6b683bb6-e87c-4c5e-ac42-44540385abb1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vless-id13.gproxy.pro
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: vless-id13.gproxy.pro
-    udp: true
+  
