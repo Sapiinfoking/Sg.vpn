@@ -10,7 +10,7 @@ proxies:
     servername: teams.microsoft.com
     network: ws
     ws-opts:
-      path: /vless-ws
+      path: /xrayvless
       headers:
         Host: id-tencent001.gosni.web.id
     udp: true
