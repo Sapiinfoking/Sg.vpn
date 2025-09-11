@@ -1,10 +1,11 @@
 proxies:
   - name: 🇮🇩 INDONESIA XL SSSH SNI 🔁
+    type: vless
     server: id-tencent001.gosni.web.id
     port: 443
-    type: vless
-    uuid: 04968b2f-894e-5e69-9fc0-a523437c5eGS
+    uuid: 04968b2f-894e-5e69-9fc0-a523437c5e50
     cipher: auto
+    udp: true
     tls: true
     skip-cert-verify: true
     servername: teams.microsoft.com
@@ -13,5 +14,3 @@ proxies:
       path: /xrayvless
       headers:
         Host: id-tencent001.gosni.web.id
-    udp: true
-  
