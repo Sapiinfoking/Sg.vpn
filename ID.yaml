@@ -1,7 +1,7 @@
 proxies:
   - name: 🇮🇩 INDONESIA XL SSSH SNI 🔁
     type: vless
-    server: id-biznet001.gosni.web.id
+    server: id-ikd001.gosni.web.id
     port: 443
     uuid: 04968b2f-894e-5e69-9fc0-a523437c5e50
     cipher: auto
@@ -13,4 +13,4 @@ proxies:
     ws-opts:
       path: /xrayvless
       headers:
-        Host: id-biznet001.gosni.web.id
+        Host: id-ikd001.gosni.web.id
